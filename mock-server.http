@@ -1,0 +1,42 @@
+@api_url = http://localhost:3000
+
+###
+
+POST {{api_url}}/api/posts
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "id": 1000,
+    "title": "my first post",
+    "body": "Hello world! This is my first post."
+}
+
+
+###
+
+GET {{api_url}}/api/posts/101
+
+
+###
+
+POST {{api_url}}/api/topics
+Content-Type: application/json
+
+{
+    "name": "Scala"
+}
+
+
+###
+
+GET {{api_url}}/api/topics
+
+###
+
+DELETE {{api_url}}/api/topics/2
+
+###
+
+GET {{api_url}}/api/topics
+

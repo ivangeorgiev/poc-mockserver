@@ -1,0 +1,28 @@
+{
+  "/posts/:id?": {
+    "_config": true,
+    "fetch": "http://jsonplaceholder.typicode.com${req.url}",
+    "fetchCount": -1
+  },
+  "/comments/:id?": {
+    "_config": true,
+    "fetch": "http://jsonplaceholder.typicode.com${req.url}",
+    "fetchCount": -1
+  },
+  "/users/:id?": {
+    "_config": true,
+    "fetch": "http://jsonplaceholder.typicode.com${req.url}",
+    "fetchCount": -1
+  },
+  "/proxy/comments/by-post": {
+    "_config": true,
+    "fetch": "https://jsonplaceholder.typicode.com/comments",
+    "middlewares": [
+      "_AdvancedSearch"
+    ]
+  },
+  "/topics": {
+    "_config": true,
+    "fetch": "data/topics.json"
+  }
+}

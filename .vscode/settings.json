@@ -1,0 +1,13 @@
+{
+    "mock-server.settings.paths": {
+        "root": "c:\\Sandbox\\PoC\\vscode\\mockserver\\mocks",
+        "db": "c:/Sandbox/PoC/vscode/mockserver/mocks/db.json",
+        "middlewares": "c:/Sandbox/PoC/vscode/mockserver/mocks/middlewares.js",
+        "injectors": "c:/Sandbox/PoC/vscode/mockserver/mocks/injectors.json",
+        "store": "c:/Sandbox/PoC/vscode/mockserver/mocks/store.json",
+        "rewriters": "c:/Sandbox/PoC/vscode/mockserver/mocks/rewriters.json",
+        "environment": "c:/Sandbox/PoC/vscode/mockserver/mocks/env",
+        "static": "",
+        "snapshots": "c:\\Sandbox\\PoC\\vscode\\mockserver\\snapshots"
+    }
+}

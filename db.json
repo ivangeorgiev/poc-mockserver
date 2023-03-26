@@ -1,0 +1,7 @@
+{
+    "posts": [{ "id": 1, "title": "mock-server", "author": "r35007" }],
+    "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+    "profile": [{ "name": "r35007" }],
+    "topics": [{ "name": "blah-blah", "id": 11 }]
+}
+  

@@ -1,0 +1,44 @@
+@api_url = http://localhost:3000
+
+POST {{api_url}}/posts
+Content-Type: application/json
+
+{
+    "id": "2",
+    "title": "Amazing mocks",
+    "author": "bigbabobab"
+}
+
+###
+
+PUT {{api_url}}/posts/2
+Content-Type: application/json
+
+{
+    "title": "Amazing mocks updated",
+    "author": "bigbabobab"
+}
+
+
+###
+
+GET {{api_url}}/posts/2
+
+
+###
+
+GET {{api_url}}/topics
+
+###
+
+POST {{api_url}}/drafts
+Content-Type: application/json
+
+{
+    "id": "2",
+    "title": "Amazing mocks",
+    "author": "bigbabobab"
+}
+
+###
+
